@@ -220,3 +220,16 @@ a.rate .rl{margin-inline-start:auto;color:var(--navy);font-size:.78rem;text-deco
 .mk i{width:16px;height:16px}
 .leaflet-popup-content{direction:rtl;text-align:right;font-family:inherit;color:#222}
 .nomap{padding:20px;color:var(--muted)}
+
+/* glossary */
+.glg{display:grid;gap:8px;grid-template-columns:1fr}
+@media(min-width:700px){.glg{grid-template-columns:1fr 1fr}}
+.gl{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:10px 14px;display:grid;grid-template-columns:1fr auto;gap:2px 10px;align-items:baseline}
+.gt{font-weight:700;font-size:1.02rem;grid-column:1}.gt bdi{font-family:'Suez One',Heebo,serif;font-weight:400}
+.gh{color:var(--muted);font-size:.85rem;grid-column:1}
+.gm{grid-column:1/-1;font-size:.9rem}
+.gf{grid-column:2;grid-row:1;font-size:.72rem;padding:2px 8px;border-radius:99px;white-space:nowrap}
+.gf.ok{background:#2e7d3220;color:var(--kosher)}.gf.no{background:#c8102e20;color:#b3262e}.gf.wr{background:#d17b0025;color:var(--warn)}
+bdi{unicode-bidi:isolate}
+
+bdi.nb{white-space:nowrap}
