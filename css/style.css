@@ -233,3 +233,10 @@ a.rate .rl{margin-inline-start:auto;color:var(--navy);font-size:.78rem;text-deco
 bdi{unicode-bidi:isolate}
 
 bdi.nb{white-space:nowrap}
+
+/* תג: המלצה של אלון */
+:root{--alon:#1F4E9C;--alon-soft:#E2EBFA}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--alon:#8FB4F2;--alon-soft:#1B2A4A}}
+:root[data-theme="dark"]{--alon:#8FB4F2;--alon-soft:#1B2A4A}
+.tag.a{background:var(--alon-soft);color:var(--alon)}
+.alon-note{color:var(--muted);font-size:.86rem}
